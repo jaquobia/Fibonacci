@@ -1,5 +1,5 @@
 [package]
-name = "fibonacchi"
+name = "fibonacci"
 version = "0.1.0"
 edition = "2021"
 
@@ -7,5 +7,7 @@ edition = "2021"
 
 [dependencies]
 num-traits = "0.2.9"
-num-bigint = "0.4.3"
+
+[dev-dependencies]
 console = "0.15.7"
+num-bigint = "0.4.3"
